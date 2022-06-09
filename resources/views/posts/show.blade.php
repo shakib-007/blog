@@ -14,4 +14,6 @@
     <hr>
     <br>
     <a href="/edit/{{$post->id}}" class="btn btn-primary">Edit</a>
+    <a href="/delete/{{$post->id}}" class="btn btn-primary">Delete</a>
+
 @endsection

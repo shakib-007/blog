@@ -34,3 +34,6 @@ Route::post('/store', [PostsController::class,'store']);
 
 Route::get('/edit/{id}', [PostsController::class,'edit']);
 Route::post('/update/{id}', [PostsController::class,'update']);
+
+Route::get('/delete/{id}', [PostsController::class,'delete']);
+
